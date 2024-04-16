@@ -1,8 +1,8 @@
-# Zerops + Svelte - Nodejs
+# Zerops + Svelte - Static
 
 ![Header Image](/header.png)
 
-A static Svelte example for Zerops which you can deploy in 2 simple steps.
+A Static Svelte example for Zerops which you can deploy in 2 simple steps.
 
 **Features**
 
