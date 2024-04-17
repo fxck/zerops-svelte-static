@@ -1,22 +1,28 @@
 {
-	"name": "my-appd",
+	"name": "zerops-svelte-static",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
 		"prepare": "svelte-kit sync",
 		"dev": "vite dev",
 		"build": "vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-    	"@sveltejs/adapter-static": "^3.0.1",
-    	"@sveltejs/kit": "^2.5.0",
-    	"svelte": "^4.2.9",
-    	"vite": "^5.0.12"
+		"@sveltejs/adapter-static": "^3.0.1",
+		"@sveltejs/kit": "^2.5.0",
+		"autoprefixer": "^10.4.19",
+		"postcss": "^8.4.38",
+		"prettier": "^2.8.4",
+		"prettier-plugin-svelte": "^2.9.0",
+		"svelte": "^4.2.9",
+		"tailwindcss": "^3.4.3",
+		"typescript": "^4.9.5",
+		"vite": "^5.0.12"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"prettier": "^3.2.5"
+	}
 }
-
-
-
-
