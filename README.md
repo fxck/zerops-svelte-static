@@ -1,6 +1,6 @@
 # Zerops x SvelteKit - Static
 
-Sveltekit is a framework for building robust, fast web applications using Svelte. [Zerops](https://zerops.io) makes deploying and running Sveltekit apps, both server side rendered and static, a breeze. This recipe showcases the Static version, see [zeropsio/recipe-svelte-nodejs](https://github.com/zeropsio/recipe-sveltekit-nodejs) for the Node.js version.
+Sveltekit is a framework for building robust, fast web applications using Svelte. [Zerops](https://zerops.io) makes deploying and running Sveltekit apps, both server side rendered and static, a breeze. This recipe showcases the Static version, see [zeropsio/recipe-sveltekit-nodejs](https://github.com/zeropsio/recipe-sveltekit-nodejs) for the Node.js version.
 
 ![sveltekit](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/svg/cover-svelte.svg)
 
