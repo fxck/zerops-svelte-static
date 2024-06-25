@@ -1,17 +1,4 @@
 zerops:
-  - setup: svelte
-    build:
-      base: nodejs@20
-      buildCommands:
-        - npm i
-        - npm run build
-      deploy:
-        - 'build/~'
-      cache:
-        - node_modules
-        - package-lock.json
-
-zerops:
   - setup: app
     build:
       base: nodejs@20

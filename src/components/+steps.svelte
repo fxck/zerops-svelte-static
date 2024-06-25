@@ -1,7 +1,7 @@
 <script>
 import Code from './+code.svelte';
 const importyaml = `project:
-  name: recipe-solidjs
+  name: recipe-sveltekit
   tags:
     - zerops-recipe
 
@@ -9,7 +9,7 @@ services:
   - hostname: app
     type: nodejs@20
     enableSubdomainAccess: true
-    buildFromGit: https://github.com/zeropsio/recipe-solidjs-nodejs`.trim();
+    buildFromGit: https://github.com/zeropsio/recipe-sveltekit-nodejs`.trim();
 
 const zeropsyaml = `zerops:
   - setup: app
@@ -17,17 +17,11 @@ const zeropsyaml = `zerops:
       base: nodejs@20
       buildCommands:
         - pnpm i
-        - pnpm run build
+        - pnpm build
       deployFiles:
-        - build
-        - package.json
-        - node_modules
+        - build/~
     run:
-      base: nodejs@20
-      ports:
-        - port: 3000
-          httpSupport: true
-      start: pnpm start`.trim();
+      base: static`.trim();
 </script>
 
     <div>
